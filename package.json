@@ -1,0 +1,21 @@
+{
+  "name": "snake-desktop-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local Windows desktop Snake game built with Electron, Vite, React, and HTML5 Canvas.",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "desktop": "npm run build && electron .",
+    "build": "node scripts/build.cjs",
+    "dev": "vite --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "electron": "latest"
+  },
+  "devDependencies": {}
+}
